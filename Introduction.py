@@ -44,7 +44,7 @@ name = "Blue_PegaCookie"
 print(name)
 
 # This prints a string of text before the variable and we can add it
-print("Hello, "+name)
+print("Hello, " + name)
 
 # This prints the data type of the varible
 print(type(name))
@@ -58,14 +58,14 @@ middle_name = "Pega"
 
 last_name = "Cookie"
 
-full_name = (first_name+"_"+middle_name+last_name)
+full_name = (first_name + "_" + middle_name + last_name)
 
-print("Hello, "+full_name)
+print("Hello, " + full_name)
 
 # Datatype: Integer
 Integer = "A whole number i.e 1, 6, 9...."
 
-#Age Example
+# Age Example
 
 age = 15
 
@@ -79,3 +79,176 @@ new_age = age + 1
 print(new_age)
 
 # We usually use the datatype int to operate math operations in python not strings.
+
+# error = print("Your age is: " + new_age)
+
+# The above code wouldn't work as we can only use + to concatenate strings not integers
+
+# Alternatively you can use
+
+print(f"Your age is: {new_age} ")
+
+# Or you can use
+
+print("Your age is: " + str(new_age))
+# The above code is also known as string casting
+
+# Datatype: Float
+# Floating point number! (Decimal Number)
+
+Height = 274.93
+print(Height)
+print(type(Height))
+
+print("Your height is: " + str(Height) + " cm")
+# The above code is another example for string casting
+
+# Datatype: Boolean
+
+VariableT = True
+print(VariableT)
+print(type(VariableT))
+
+VariableF = False
+print(VariableF)
+print(type(VariableF))
+
+# Example for string casting
+
+human = True
+print("Are you a human? " + str(human))
+
+# 4 basic Datatypes Have Been Covered
+# 1. Strings
+# 2. Integers
+# 3. Floats
+# 4. Booleans
+
+# Lesson 2
+
+# Multiple Assignments
+
+# It allows us to assign multiple variables simultaneously in one line of code
+
+name = "Blue_PegaCookie"
+age = 15
+Smart = True
+
+print(name)
+print(age)
+print(Smart)
+
+# Rather than using these many lines of code, We can use multiple assignments
+
+name, age, smart = "Blue_PegaCookie", 15, True
+# This looks compact and better and it produces the same results!
+
+print(name)
+print(age)
+print(smart)
+
+# Here's another example
+
+Spongebob = 30
+Squidward = 30
+Ludwig = 30
+Sandy = 30
+
+# Instead of 4 lines of code Let's use multiple assignments
+
+Spongebob = Squidward = Ludwig = Sandy = 30
+
+print(Spongebob)
+print(Squidward)
+print(Sandy)
+print(Ludwig)
+
+# Lesson 3
+
+# Useful String Methods
+
+name = ("Blue_PegaCookie")
+
+print(len(name))
+print(name.find("z"))
+print(name.capitalize())
+print(name.upper())
+print(name.lower())
+
+# To find if string only contains number (no spaces also)
+print(name.isdigit())
+
+# To find if string only contains alphabets (no spaces also)
+print(name.isalpha())
+
+print(name.count("o"))
+print(name.replace("_", "-"))
+print(name*5)
+
+# Lesson 4
+
+# All About Type Casting
+
+# It's converting the datatype of a value to another datatype
+
+# String
+x = "1"
+
+# Integer
+y = 2
+
+# Float
+z = 4.35
+
+Typecasting = 'To change the datatype of a variable, you have just got surround it by the daataype '
+
+print(int(x))
+
+# Lesson 5
+
+# User Inputs
+
+name = input("What's your name? ")
+
+print("Hello, "+name)
+
+age = input("How old are you? "+name )
+
+x = int(age)
+x += 1
+
+print(f"Next year you'll be {x}")
+
+# Alternatively you could choose to do this instead
+
+name = input("What's your name? ")
+
+print("Hello, "+name)
+
+age = int(input("How old are you? "+name ))
+
+age += 1
+
+print("Next year you'll be " + str(age))
+
+# Lesson 6
+
+# Mathematical Operations
+
+import math
+
+pi = 3.14
+
+x = 1
+y = 2
+z = 3
+
+print(round(pi))
+print(math.ceil(pi))
+print(math.floor(pi))
+print(abs(pi))
+print(pow(pi, 2))
+print(math.sqrt(pi))
+print(max(x, y, z))
+print(min(x, y, z))
+
