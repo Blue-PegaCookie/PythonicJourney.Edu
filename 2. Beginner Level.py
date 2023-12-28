@@ -87,3 +87,86 @@ for seconds in range(10,0,-1):
     time.sleep(1)
 print("Happy New Year! ")
 
+# Lesson 12
+
+# Nested loops
+
+# It's the inner loop that'll finish all of its iterations before finishing
+# one iteration of da outer loop!
+
+rows = int(input("How many rows would you like for the grid? "))
+columns = int(input("How many columns would you like for the grid? "))
+symbol = input("Please enter a symbol to create the grid with ")
+
+for i in range(rows):
+    for j in range(columns):
+        print(symbol, end="")
+    print()
+
+# Lesson 13
+
+# Loop Control Statements
+
+# It changes a loops execution from its normal sequence
+
+# 1. Break = used to terminate the loop entirely
+# 2. Continue = skips to the next iteration of da loop
+# 3. Pass = does nothing, literally nothing. It acrs as a place holder
+
+while True:
+    name = input("What's your name? ")
+    if name != "":
+        break
+
+phone_number = "123-456-7890"
+
+for i in phone_number:
+    if i == "-":
+        continue
+    print(i, end="")
+
+for i in range(1,20+1):
+    if i == 13:
+        pass
+    else:
+        print(i)
+
+# Lesson 14
+
+# Lists
+
+# They're used to store multiple items in a single variable!
+
+food = ["Pizza", "Hamburger", "Hotdog", "Spaghetti", "Dessert"]
+
+food[0] = "Sushi"
+
+print(food.append("Ice Cream"))
+print(food.remove("Hotdog"))
+print(food.pop())
+print(food.insert(0, "Cake"))
+print(food.sort())
+print(food.clear())
+
+for x in food:
+    print(x)
+
+# Lesson 15
+
+# 2D Lists!
+
+# It's a list of lists! How Fascinating!!!
+
+drinks = ["coffee", "soda", "tea"]
+dinner = ["pizza", "hamburger", "hotdog"]
+dessert = ["cake", "ice cream"]
+
+food = [drinks, dinner, dessert]
+
+print(drinks, dessert, dinner, sep="\n")
+print(food, sep="\n")
+
+
+# Lesson 16
+
+# Tuples
