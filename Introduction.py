@@ -183,7 +183,7 @@ print(name.isalpha())
 
 print(name.count("o"))
 print(name.replace("_", "-"))
-print(name*5)
+print(name * 5)
 
 # Lesson 4
 
@@ -210,9 +210,9 @@ print(int(x))
 
 name = input("What's your name? ")
 
-print("Hello, "+name)
+print("Hello, " + name)
 
-age = input("How old are you? "+name )
+age = input("How old are you? " + name)
 
 x = int(age)
 x += 1
@@ -223,9 +223,9 @@ print(f"Next year you'll be {x}")
 
 name = input("What's your name? ")
 
-print("Hello, "+name)
+print("Hello, " + name)
 
-age = int(input("How old are you? "+name ))
+age = int(input("How old are you? " + name))
 
 age += 1
 
@@ -252,3 +252,31 @@ print(math.sqrt(pi))
 print(max(x, y, z))
 print(min(x, y, z))
 
+# Lesson 7
+
+# String Slicing
+
+# Slicing = create a substring by extracting elements from another string
+#           indexing[] or slice()
+#           [start:stop:step]
+
+name = "Blue_PegaCookie"
+
+first_name = name[0:4]  # Or [:4]
+last_name = name[9:15]  # Or [9:]
+print(first_name)
+print(last_name)
+
+messy_name = name[0:15:2]  # Or [::2]
+print(messy_name)
+
+reversed_name = name[::-1]
+print(reversed_name)
+
+website1 = "http://google.com"
+website2 = "http://wikipedia.com"
+
+slicer = slice(7, -4)
+
+print(website1[slicer])
+print(website2[slicer])
