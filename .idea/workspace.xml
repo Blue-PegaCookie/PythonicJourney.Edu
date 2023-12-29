@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9f849a0-3c2c-4df6-a7e0-71e66d940e82" name="Changes" comment="Renamed">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2. Beginner Level.py" beforeDir="false" afterPath="$PROJECT_DIR$/2. Beginner Level.py" afterDir="false" />
-    </list>
+    <list default="true" id="b9f849a0-3c2c-4df6-a7e0-71e66d940e82" name="Changes" comment="Continuation" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,18 +29,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Beginner Level.executor": "Run",
-    "Python.Introduction.executor": "Run",
-    "Python.Workspace.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "F:/Python/Pycharm Projects (Educational Journal)/Pythonic Journey",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Console Colors"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.2. Beginner Level.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Beginner Level.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Introduction.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Workspace.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Python/Pycharm Projects (Educational Journal)/Pythonic Journey&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Console Colors&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="1. Introduction" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Pythonic Journey" />
@@ -108,7 +106,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703770443519</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Continuation">
+      <option name="closed" value="true" />
+      <created>1703799944628</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703799944628</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,8 +130,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Introductory" />
-    <MESSAGE value="Continuation" />
     <MESSAGE value="Renamed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Renamed" />
+    <MESSAGE value="Continuation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Continuation" />
   </component>
 </project>
