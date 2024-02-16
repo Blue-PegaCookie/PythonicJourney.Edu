@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9f849a0-3c2c-4df6-a7e0-71e66d940e82" name="Changes" comment="Continuation" />
+    <list default="true" id="b9f849a0-3c2c-4df6-a7e0-71e66d940e82" name="Changes" comment="Continuation">
+      <change afterPath="$PROJECT_DIR$/Side Quests (Mini Projects).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stage D (New Beginning.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2. Beginner Level.py" beforeDir="false" afterPath="$PROJECT_DIR$/2. Beginner Level.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Workspace.py" beforeDir="false" afterPath="$PROJECT_DIR$/Workspace.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,15 +37,18 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python.1. Introduction.executor&quot;: &quot;Run&quot;,
     &quot;Python.2. Beginner Level.executor&quot;: &quot;Run&quot;,
     &quot;Python.Beginner Level.executor&quot;: &quot;Run&quot;,
     &quot;Python.Introduction.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Side Quests (Mini Projects).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Stage D (New Beginning.executor&quot;: &quot;Run&quot;,
     &quot;Python.Workspace.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;last_opened_file_path&quot;: &quot;F:/Python/Pycharm Projects (Educational Journal)/Pythonic Journey&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Console Colors&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
   <component name="RunManager">
@@ -114,7 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703799944628</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Continuation">
+      <option name="closed" value="true" />
+      <created>1703878379104</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703878379104</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

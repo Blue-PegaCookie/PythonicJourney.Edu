@@ -38,7 +38,7 @@ elif temperature < 0 or temperature > 30:
 # while loop = a statement that'll execute its block of code as long
 # as it's condition remains true
 
-### DANGEROUS CODE ###
+# DANGEROUS CODE
 # while 1==1:
 #     name = print("Help! I'm stuck in a loop! ")
 
@@ -49,7 +49,7 @@ name = ""
 while len(name) == 0:
     name = input("Please Enter Your Name! ")
 
-print("Hello, "+name)
+print("Hello, " + name)
 
 # Another way of writing the example is
 
@@ -70,9 +70,9 @@ print("Hello, " + name)
 # for loops are limited
 
 for i in range(10):
-    print(i+1)
+    print(i + 1)
 
-for i in range(50, 100+1, 2):
+for i in range(50, 100 + 1, 2):
     print(i)
 
 for i in "Blue_PegaCookie":
@@ -82,7 +82,7 @@ for i in "Blue_PegaCookie":
 
 import time
 
-for seconds in range(10,0,-1):
+for seconds in range(10, 0, -1):
     print(seconds)
     time.sleep(1)
 print("Happy New Year! ")
@@ -111,7 +111,7 @@ for i in range(rows):
 
 # 1. Break = used to terminate the loop entirely
 # 2. Continue = skips to the next iteration of da loop
-# 3. Pass = does nothing, literally nothing. It acrs as a place holder
+# 3. Pass = does nothing, literally nothing. It acts as a place holder
 
 while True:
     name = input("What's your name? ")
@@ -125,7 +125,7 @@ for i in phone_number:
         continue
     print(i, end="")
 
-for i in range(1,20+1):
+for i in range(1, 20 + 1):
     if i == 13:
         pass
     else:
@@ -166,7 +166,79 @@ food = [drinks, dinner, dessert]
 print(drinks, dessert, dinner, sep="\n")
 print(food, sep="\n")
 
+print(food[0])
+print(food[0][1])
+# the above code's first index chooses the first list in the variable food!
+# the second index prints the item in the chosen list based on the number
+
 
 # Lesson 16
 
 # Tuples
+
+# It's a collection  which is ordered and unchangeable
+# It's used to group together related data
+
+student1 = ("Blue_PegaCookie", 15, "male")
+student2 = ("Marcel", 15, "male")
+student3 = ("Daniel", 15, "female")
+student4 = ("Joel", 15, "male")
+student5 = ("Ava", 15, "female")
+student6 = ("Roselin", 15, "female")
+
+students = [student1, student2, student3, student4, student5, student6]
+
+print(students.count("Blue_PegaCookie"))
+print(student1.index("male"))
+
+if "Blue_PegaCookie" in students:
+    print("Blue_PegaCookie is present!")
+
+# Lesson 17
+
+# Sets
+
+# It's a collection which is not in order and not indexed which also has not duplicate values
+
+utensils = {"fork", "spoon", "knife"}
+dishes = {"bowl", "plate", "cup", "knife"}
+
+utensils.add("napkin")
+utensils.remove("fork")
+utensils.clear()
+dishes.update(utensils)
+
+dinner_table = utensils.union(dishes)
+
+print(dishes.difference(utensils))
+print(utensils.intersection(dishes))
+
+for x in dinner_table:
+    print(x)
+
+# Lesson 18
+
+# Dictionaries
+
+# It's a changeable, unordered collection of key:value pairs
+# They're fast  because they use hashing
+# It allows us to access a value quickly
+
+capitals = {"USA": "Washington DC",
+            "India": "New Delhi",
+            "China": "Beijing",
+            "Russia": "Moscow"}
+
+capitals.update({"Germany": "Berlin"})
+capitals.update({"USA": "Las Vegas"})
+capitals.pop("China")
+capitals.clear()
+
+print(capitals["Russia"])
+print(capitals.get("Germany"))
+print(capitals.keys())
+print(capitals.values())
+print(capitals.items())
+
+for key, value in capitals.items():
+    print(key, value)
