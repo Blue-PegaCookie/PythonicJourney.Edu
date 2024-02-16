@@ -2,23 +2,12 @@ from datetime import date
 
 import calendar
 
-name = input("Hey buddy! What's your name? ")
-dob = input(f"Hey {name}, What's your date of birth? (DD-MM-YYYY) ")
-
-today = str((date.today()))
-current_month = int(today[5:7])
-birthday_month = int(dob[-7:-5])
-
-months_lived1 = current_month - birthday_month
-months_lived2 = birthday_month - current_month
-adv_months_lived = 12 - (int(months_lived2) + 1)
-
-today = str((date.today()))
-current_date = int(today[-2:])
-birthday_date = int(today[:2])
 
 
 def calculate_age():
+    name = input("Hey buddy! What's your name? ")
+    dob = input(f"Hey {name}, What's your date of birth? (DD-MM-YYYY) ")
+
     today_x = str((date.today()))
     current_year = int(today_x[0:4])
     years_lived = current_year - int(dob[-4:])
