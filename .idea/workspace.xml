@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9f849a0-3c2c-4df6-a7e0-71e66d940e82" name="Changes" comment="New Modes">
-      <change beforePath="$PROJECT_DIR$/Side Quests (Mini Projects).py" beforeDir="false" afterPath="$PROJECT_DIR$/Side Quests (Mini Projects).py" afterDir="false" />
+    <list default="true" id="b9f849a0-3c2c-4df6-a7e0-71e66d940e82" name="Changes" comment="Made It More Compact">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2. Beginner Level.py" beforeDir="false" afterPath="$PROJECT_DIR$/2. Beginner Level.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Side Quests (1) (Mini Projects).py" beforeDir="false" afterPath="$PROJECT_DIR$/Side Quests (1) (Mini Projects).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stage D (New Beginning.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stage D (New Beginning.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Workspace.py" beforeDir="false" afterPath="$PROJECT_DIR$/Workspace.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +29,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -37,6 +47,7 @@
     &quot;Python.2. Beginner Level.executor&quot;: &quot;Run&quot;,
     &quot;Python.Beginner Level.executor&quot;: &quot;Run&quot;,
     &quot;Python.Introduction.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Side Quests (1) (Mini Projects).executor&quot;: &quot;Run&quot;,
     &quot;Python.Side Quests (Mini Projects).executor&quot;: &quot;Run&quot;,
     &quot;Python.Stage D (New Beginning.executor&quot;: &quot;Run&quot;,
     &quot;Python.Workspace.executor&quot;: &quot;Run&quot;,
@@ -135,7 +146,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708078142188</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Slight Changes">
+      <option name="closed" value="true" />
+      <created>1708078859990</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708078859990</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Made It More Compact">
+      <option name="closed" value="true" />
+      <created>1708079143083</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1708079143083</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -154,6 +181,8 @@
     <MESSAGE value="Renamed" />
     <MESSAGE value="Continuation" />
     <MESSAGE value="New Modes" />
-    <option name="LAST_COMMIT_MESSAGE" value="New Modes" />
+    <MESSAGE value="Slight Changes" />
+    <MESSAGE value="Made It More Compact" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made It More Compact" />
   </component>
 </project>

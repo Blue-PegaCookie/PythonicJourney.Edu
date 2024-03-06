@@ -45,30 +45,29 @@ GoodDay()
 GoodDay()
 
 
-def Howdie(name):
-    print(f"Hey Man, Your name is {name} right?")
+def Function(new_name):
+    print(f"Hey Man, Your name is {new_name} right?")
     print("Well... Welcome!")
 
 
 newbie_name = "Blue_PegaCookie"
 
-Howdie(newbie_name)
+Function(newbie_name)
 
 
 # The (name) and the argument we send (newbie_name) doesnt have to match
 
 # The block of code in the function should make (name) and {name}
 
-def Full_Name(first_name, middle_name, last_name):
+def fullname():
     print(f"Hey! Mr.{last_name}")
     print(f"Can I call you {first_name}")
 
 
-firstname = input("What's your first name? eh? ")
+first_name = input("What's your first name? ")
 
-middle_name = input("What's your middle name coward! ")
+middle_name = input("What's your middle name? ")
 
-lastname = input("What's your last name! ")
+last_name = input("What's your last name? ")
 
-Full_Name(firstname, middlename, lastname)
-
+fullname()

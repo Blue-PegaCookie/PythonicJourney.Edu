@@ -21,8 +21,8 @@ else:
 
 temperature = int(input("What's the temperature outside?: "))
 
-if temperature >= 0 and temperature <= 30:
-    # You could simplify the above code by : if 0 <= temperature <= 30: That works too!
+if 0 <= temperature <= 30:
+    # You could simplify the above code by : if temperature >= 0 and temperature <= 30: That works too!
     print("The temperature is wonderful outside")
     print("Have fun outside! ")
 elif temperature < 0 or temperature > 30:
@@ -187,6 +187,8 @@ student5 = ("Ava", 15, "female")
 student6 = ("Roselin", 15, "female")
 
 students = [student1, student2, student3, student4, student5, student6]
+
+
 
 print(students.count("Blue_PegaCookie"))
 print(student1.index("male"))
