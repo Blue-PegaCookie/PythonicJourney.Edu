@@ -7,12 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9f849a0-3c2c-4df6-a7e0-71e66d940e82" name="Changes" comment="Made It More Compact">
+    <list default="true" id="b9f849a0-3c2c-4df6-a7e0-71e66d940e82" name="Changes" comment="Polished up a few bits and completed my second side quest">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2. Beginner Level.py" beforeDir="false" afterPath="$PROJECT_DIR$/2. Beginner Level.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Side Quests (1) (Mini Projects).py" beforeDir="false" afterPath="$PROJECT_DIR$/Side Quests (1) (Mini Projects).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stage D (New Beginning.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stage D (New Beginning.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Workspace.py" beforeDir="false" afterPath="$PROJECT_DIR$/Workspace.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708079143083</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Polished up a few bits and completed my second side quest">
+      <option name="closed" value="true" />
+      <created>1709745515385</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1709745515385</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,6 +187,7 @@
     <MESSAGE value="New Modes" />
     <MESSAGE value="Slight Changes" />
     <MESSAGE value="Made It More Compact" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made It More Compact" />
+    <MESSAGE value="Polished up a few bits and completed my second side quest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Polished up a few bits and completed my second side quest" />
   </component>
 </project>

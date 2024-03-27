@@ -1,6 +1,6 @@
-# Welcome To Python
+# Welcome To Python (Game Version)
 
-# This is going to be an introductory for the programming language Python
+# This is going to be an introductory for the programming language Python and how to be better than everyone else!
 
 # It'll compromise everything you would need to know about Python and how to tackle it
 
@@ -20,7 +20,9 @@ print("Hello!My friend")
 
 print("This is going to be a wonderful journey Let's Start Learning! :0 ")
 
-# Lesson 1
+# This will be a game based story mode version!
+
+# Beginner's Hut: Basics and Class Introductions
 
 # What's a Datatype? Mate Explain...
 
@@ -46,7 +48,7 @@ print(name)
 # This prints a string of text before the variable and we can add it
 print("Hello, " + name)
 
-# This prints the data type of the varible
+# This prints the data type of the variable
 print(type(name))
 
 # Full name example
@@ -124,7 +126,7 @@ print("Are you a human? " + str(human))
 # 3. Floats
 # 4. Booleans
 
-# Lesson 2
+# Beginner's Hut: Mission 1
 
 # Multiple Assignments
 
@@ -163,7 +165,7 @@ print(Squidward)
 print(Sandy)
 print(Ludwig)
 
-# Lesson 3
+# Beginner's Hut: Skill Knowledge!
 
 # Useful String Methods
 
@@ -185,7 +187,7 @@ print(name.count("o"))
 print(name.replace("_", "-"))
 print(name * 5)
 
-# Lesson 4
+# Beginner's Hut: Communication and Setting Accommodations
 
 # All About Type Casting
 
@@ -231,7 +233,7 @@ age += 1
 
 print("Next year you'll be " + str(age))
 
-# Lesson 6
+# Beginner's Hut: Knowledge Absorption (Old Relic)
 
 # Mathematical Operations
 
@@ -252,7 +254,7 @@ print(math.sqrt(pi))
 print(max(x, y, z))
 print(min(x, y, z))
 
-# Lesson 7
+# Beginner's Hut: Dagger Skills
 
 # String Slicing
 

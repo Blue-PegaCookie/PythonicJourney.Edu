@@ -71,3 +71,17 @@ middle_name = input("What's your middle name? ")
 last_name = input("What's your last name? ")
 
 fullname()
+
+# Lesson 21
+
+# Return Statements
+
+# Used in python to send python values/objects back to the caller
+
+# These values/objects are known as the function's "return" values
+
+def multiply(n1, n2):
+    result = n1 * n2
+    return result
+
+multiply(6, 8)

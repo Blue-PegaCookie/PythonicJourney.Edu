@@ -1,4 +1,4 @@
-# Lesson 8
+# Beginner's Hut: Mission 2
 
 # "if" statements
 
@@ -15,7 +15,7 @@ elif age < 0:
 else:
     print("You're a child!")
 
-# Lesson 9
+# Beginner's Hut: Mission 3
 
 # Logical Operators (and, or, not)
 
@@ -31,7 +31,7 @@ elif temperature < 0 or temperature > 30:
 
 # We can also use the 'not' operator which reverse the condition!
 
-# Lesson 10
+# Beginner's Hut: Mission 4
 
 # While Loops
 
@@ -60,7 +60,7 @@ while not name:
 
 print("Hello, " + name)
 
-# Lesson 11
+# Beginner's Hut: Final Spectrum
 
 # 'for' loops
 
@@ -87,7 +87,7 @@ for seconds in range(10, 0, -1):
     time.sleep(1)
 print("Happy New Year! ")
 
-# Lesson 12
+# Beginner's Platoon: Knowledge Absorption
 
 # Nested loops
 
@@ -103,7 +103,7 @@ for i in range(rows):
         print(symbol, end="")
     print()
 
-# Lesson 13
+# Beginner's Platoon: Usage Of Knowledge
 
 # Loop Control Statements
 
@@ -131,7 +131,7 @@ for i in range(1, 20 + 1):
     else:
         print(i)
 
-# Lesson 14
+# Venture Into The Forest: Enter
 
 # Lists
 
@@ -151,7 +151,7 @@ print(food.clear())
 for x in food:
     print(x)
 
-# Lesson 15
+# Venture Into The Forest: Encounter
 
 # 2D Lists!
 
