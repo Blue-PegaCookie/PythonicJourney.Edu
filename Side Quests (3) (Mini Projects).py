@@ -6,7 +6,6 @@ def day_calculator():
 
         current_day = input("What's the day today? ")
         days = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
-
         ccurrent_day = current_day.capitalize()
         if ccurrent_day in days:
             required_day = input("How days before or after do you want the day? ")
